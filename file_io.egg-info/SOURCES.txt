@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+file_io/__init__.py
+file_io.egg-info/PKG-INFO
+file_io.egg-info/SOURCES.txt
+file_io.egg-info/dependency_links.txt
+file_io.egg-info/requires.txt
+file_io.egg-info/top_level.txt
