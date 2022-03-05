@@ -14,7 +14,7 @@ from uuid import UUID
 from typing import Any, Iterable, List, Dict, Union
 
 import asyncio
-from url import url
+from async_url import async_url
 
 from inspect import currentframe, getframeinfo
 from pathlib import Path
