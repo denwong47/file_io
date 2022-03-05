@@ -442,7 +442,7 @@ class file():
 
     @classmethod
     def wget(cls, loc:str, path:str, *args, **kwargs):
-        _data = asyncio.run(url.wget(loc, *args, **kwargs))
+        _data = asyncio.run(async_url.wget(loc, *args, **kwargs))
 
         if (not isinstance(_data, Exception)):
             _file = cls(path, is_dir=False)
