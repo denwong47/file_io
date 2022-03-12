@@ -10,11 +10,6 @@ from typing import Any, Iterable, List, Dict, Union
 import asyncio
 from async_url import async_url
 
-# from inspect import currentframe, getframeinfo
-# from pathlib import Path
-
-
-# from dictutil import print_dict
 
 class ForInformation(Exception):
     def __bool__(self):
@@ -523,35 +518,4 @@ def affirm_folder_exists(folder_path, check_writable=True):
         # This can generate a false alarm being there is a file that already exists under that name but you actually wanted a folder with the same name. Bad practice anyway - will fix later.
         return False
 
-       
-
-
-# In[ ]:
-
-
-# Debug Test
-if __name__=="__main__":
-#     _file = file("../update_cache/a2dfhjr/fshjk.file")
-#     print (_file.save("Testing 123\nNew line 456"))
-    _folder = file.cwd().child("temp", is_dir=True)
-
-    for _count in range(100):
-        print (file.temp(_folder).touch())
-#     print (_file.abspath())
-#     print (_file.touch())
-
-#     _from = file("./update_cache")
-#     _to = file("./copy_to/test.dir", is_dir = True)
-
-#     print_dict(_from.copy_to(_to, copy_to_base_dir=False), direct_output = True)
-
-
-# In[ ]:
-
-
-
-
-
-
-
-# Created by convert_to_py at 2021-07-04T16:58:26.458026.
+    
