@@ -118,4 +118,4 @@ dmypy.json
 .pyre/
 
 # Repo specific
-testlog/
+*.cache
