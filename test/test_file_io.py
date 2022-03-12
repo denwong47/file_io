@@ -20,6 +20,11 @@ _test_file_path = f"{_test_folder_path}/test_file.bytes"
 
 class TestFileIO(unittest.TestCase):
 
+    """
+    Currently these tests are fairly barebones
+    TODO Add more tests
+    """
+
     @classmethod
     def removeTemps(cls) -> None:
         _remote_file = file(_remote_cache, is_dir=False)
@@ -119,6 +124,7 @@ class TestFileIO(unittest.TestCase):
         _test_folder.delete()
         self.assertFalse(_test_folder.exists())
         
+    # TODO Add more tests for every single method
 
 if (__name__=="__main__"):
     unittest.main()
